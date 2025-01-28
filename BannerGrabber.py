@@ -2,11 +2,18 @@
 
 import socket
 
-s = socket.socket()
+# s = socket.socket()
 
-ip = input("Please enter the IP: ")
-port = str(input("Please enter the port: "))
+# ip = input("Please enter the IP: ")
+# port = str(input("Please enter the port: "))
     
-s.connect((ip, int(port)))
-print(s.recv(1024))
+# s.connect((ip, int(port)))
+# print(s.recv(1024))
 
+
+def main():
+    ip = input("Please enter the IP: ")
+    port = str(input("Please enter the port: "))
+    
+
+main()
